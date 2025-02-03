@@ -1,0 +1,33 @@
+# Node Modules
+node_modules/
+
+# Build Output
+dist/
+*.log
+*.gz
+
+# Webpack Cache
+.cache/
+webpack-stats.json
+coverage/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# GitHub Actions cache
+.github/workflows/*.log
+.github/workflows/cache/
+

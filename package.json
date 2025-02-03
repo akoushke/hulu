@@ -1,0 +1,25 @@
+{
+  "name": "hulu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Arash Koushkebaghi<arash.koush@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://akoushke.github.io/hulu",
+  "scripts": {
+    "start": "webpack serve --env development --open",
+    "build": "webpack --env production"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "svg-inline-loader": "^0.8.2",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
