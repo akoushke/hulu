@@ -6,6 +6,19 @@ My goal was to meet all the requirements while addressing most of the extra cred
 
 ---
 
+## 📌 Agenda
+
+| Section                                                                    | Description                                      |
+| -------------------------------------------------------------------------- | ------------------------------------------------ |
+| [Demo](#demo)                                                              | Link to the live demo and screenshots            |
+| [Technology](#technology)                                                  | Overview of the tech stack used                  |
+| [Features](#features)                                                      | Highlight of implemented features                |
+| [Design Implementation](#design-implementation)                            | Explanation of key components                    |
+| [Limitations & Areas for Improvement](#limitations--areas-for-improvement) | Identified challenges and potential enhancements |
+| [Summary](#summary)                                                        | Final thoughts and reflections                   |
+
+---
+
 ## Demo
 
 [Click here to view the demo](https://akoushke.github.io/hulu/)
