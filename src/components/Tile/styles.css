@@ -1,0 +1,45 @@
+.tile {
+  width: calc((100vw / 4) - 1rem);
+  transition: transform 0.2s;
+}
+.tile.selected {
+  transform: scaleX(1.05);
+  margin: 0 1rem;
+}
+.tile.vertical.selected {
+  transform: scaleY(1.05);
+  margin-top: 0.5rem;
+}
+.tile.vertical {
+  width: calc((100vw / 9) - 1rem);
+  height: calc(100% - 5rem);
+  transition: transform 0.2s;
+}
+.meta {
+  margin: 0.5rem 0;
+  color: #8c8888;
+  width: 100%;
+}
+.title {
+  font-size: clamp(0.75rem, 1.2vw, 1rem);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.title.selected {
+  color: #ffffff;
+}
+.subtitle {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  visibility: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.subtitle.selected {
+  visibility: visible;
+}

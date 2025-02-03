@@ -1,0 +1,46 @@
+.collections {
+  padding: 1rem 2rem;
+}
+
+.collection-container {
+  margin-bottom: 1rem;
+  overflow-y: visible;
+  height: 100%;
+}
+
+.layout-toggle-container {
+  position: fixed;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  right: 0;
+  top: 0;
+}
+.loading {
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 0.25rem;
+  font-size: clamp(1.25rem, 1.2vw, 1.5rem);
+}
+
+.collection {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: visible;
+  scrollbar-width: none;
+}
+
+.collection.vertical {
+  height: calc((100vh / 3));
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
