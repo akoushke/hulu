@@ -11,11 +11,13 @@ body {
   padding: 0;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  height: 100%;
 }
 
 html {
   scrollbar-width: none;
   -ms-overflow-style: none;
+  height: 100%;
 }
 
 html::-webkit-scrollbar,
