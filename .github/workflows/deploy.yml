@@ -30,9 +30,6 @@ jobs:
       - name: Documentation
         run: npm run docs
 
-      - name: rename docs/index.html
-        run: mv docs/index.html docs/docs.html
-
       - name: move docs to dist
         run: mv docs dist
 
