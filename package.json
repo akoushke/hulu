@@ -8,15 +8,18 @@
   "homepage": "https://akoushke.github.io/hulu",
   "scripts": {
     "start": "webpack serve --env development --open",
-    "build": "webpack --env production"
+    "build": "webpack --env production",
+    "docs": "typedoc"
   },
   "devDependencies": {
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.6.3",
+    "jsdoc-plugin-typescript": "^3.2.0",
     "style-loader": "^4.0.0",
     "svg-inline-loader": "^0.8.2",
     "ts-loader": "^9.5.2",
+    "typedoc": "^0.27.7",
     "typescript": "^5.7.3",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1",

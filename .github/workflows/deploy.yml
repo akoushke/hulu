@@ -27,6 +27,15 @@ jobs:
       - name: Build Project
         run: npm run build
 
+      - name: Documentation
+        run: npm run docs
+
+      - name: rename docs/index.html
+        run: mv docs/index.html docs/docs.html
+
+      - name: move docs to dist
+        run: mv docs dist
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:

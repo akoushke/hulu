@@ -31,3 +31,6 @@ Thumbs.db
 .github/workflows/*.log
 .github/workflows/cache/
 
+# Docs
+docs/
+
